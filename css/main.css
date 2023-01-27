@@ -1,0 +1,168 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1110px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.btn {
+    display: block;
+    width: 219px;
+    padding: 22px 70px;
+
+    font-size: 18px;    
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 100px;
+
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #27ad6ad2;
+    cursor: pointer;
+}
+/* Hero */
+
+.hero {
+    margin: 60px 0 120px 0;
+}
+
+.hero__logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    width: 465px;
+    margin-left: 180px;
+}
+
+.hero__title {
+    font-size: 50px;
+}
+
+.hero__text {
+    margin: 30px 0px;
+
+    font-size: 18px;
+}
+
+
+
+/* Features */
+
+.features {
+    margin-bottom: 120px;
+}
+
+.features__title {
+    text-align: center;
+    margin-bottom: 70px;
+
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.features__list {
+    padding: 0;
+    margin-left: 195px;
+    list-style: none;
+}
+
+.features__item {
+    display: flex;
+    margin-bottom: 41px;
+}
+
+.features__number {
+    display: flex;
+    align-items: center;
+    margin-right: 41px;
+    padding: 24px 31px 24px 32px;
+
+    font-size: 20px;
+    line-height: 27px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.features__item:hover .features__number {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.features__item-title {
+    margin: 0 0 11px 0;
+
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.features__item-text {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Practice */
+
+.practice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+
+    background: linear-gradient(102deg, #E8FFE8 17.38%, #D1F0FF 81.25%);
+    border-radius: 60px;
+}
+
+.practice__image {
+    margin: 100px 100px 100px 122px;
+}
+
+.practice__title {
+    width: 432px;
+
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.practice__text {
+    width: 371px;
+    margin: 24px 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* footer */
+.footer__text {
+    text-align: center;
+    margin-bottom: 120px;
+    
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
